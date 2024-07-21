@@ -1,0 +1,23 @@
+{
+  "name": "stockrecord-service",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "start": "nest start",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.6.15",
+    "@nestjs/core": "^7.6.15",
+    "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/mongoose": "^7.2.4",
+    "@ecommerce/database": "workspace:*"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^7.6.0",
+    "@nestjs/schematics": "^7.1.5",
+    "@nestjs/testing": "^7.6.15",
+    "typescript": "^4.1.5"
+  }
+}
